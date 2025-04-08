@@ -20,8 +20,8 @@ Table 1_1: Image processing vs. computer vision vs. machine vision
 | 0.01-10 nm | X-ray Vision | X-ray detectors | Medical purposes |
 | 400-730 nm | Visible Light (RGB) | CMOS, CCD | Image classification, object detection |
 | 730-1400 nm | Near-InfraRed (NIR) |NIR Cameras | Eye tracking, night vision |
-| 1.4-3 um |  | Short-wave InfraRed (SWIR) | SWIR Cameras | Eye tracking, night vision |
-| 3-14 um |  | Thermal InfraRed (TIR) | Uncooled microbolometers | Heat detection, surveillance, medical imaging |
-| 1 mm -  m |  | Radar | Radar sensors | Automotive collision detection |
+| 1.4-3 um | Short-wave InfraRed (SWIR) | SWIR Cameras | Eye tracking, night vision |
+| 3-14 um | Thermal InfraRed (TIR) | Uncooled microbolometers | Heat detection, surveillance, medical imaging |
+| 1 mm -  m | Radar | Radar sensors | Automotive collision detection |
 
 Table 1_1: Wavelengths and optical sensors used
