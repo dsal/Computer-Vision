@@ -93,16 +93,16 @@ CV is a symphony of interdisciplinary domains, each contributing essential capab
   - **Robotics & Smart Applications** → Uses vision for automation and real-world interaction. It is related with physics for environmental interaction (e.g., drone avoiding reflections on water). In addition, it uses AI outputs for decision-making (e.g., warehouse robots navigating via real-time object detection). For example, agricultural drones analyze crop health (CV) and spray pesticides (robotics) using multi-spectral imaging (signal processing).
 
 # 1.8. Deep learning for computer vision
-Deep learning has revolutionized computer vision by replacing handcrafted features with end-to-end learning models. Key Architectures and methods of deep learning for CV are:
-  - Convolutional Neural Networks (CNNs) → Feature extraction from images. Examples: ResNet, VGG, EfficientNet.
-  - Transformers in Vision (ViTs, Swin-Transformer) → Attention-based models replacing CNNs.
-  - Generative Adversarial Networks (GANs) → Image generation, super-resolution.
-  - Reinforcement Learning (RL) for Vision → Used in robotics for real-world decision-making.
+Deep learning has redefined computer vision by enabling machines to automatically learn hierarchical features from raw data, surpassing traditional methods reliant on hand-engineered algorithms. In other words, deep learning has revolutionized computer vision by replacing handcrafted features with end-to-end learning models. Below is a structured overview of its core architectures, methods, and applications:
+  - **Convolutional Neural Networks (CNNs)** → Feature extraction from images. Examples: ResNet, VGG, EfficientNet.
+  - **Transformers in Vision (ViTs, Swin-Transformer)** → Attention-based models replacing CNNs.
+  - **Generative Adversarial Networks (GANs)** → Image generation, super-resolution.
+  - **Reinforcement Learning (RL) for Vision** → Used in robotics for real-world decision-making.
 In addition, applications of deep learning for CV are:
-  - object detection & segmentation (YOLO, Mask R-CNN).
-  - Medical imaging (AI-based tumor detection).
-  - Autonomous driving (Tesla uses deep vision networks).
-  - 
+  - **Object detection & segmentation (YOLO, Mask R-CNN)**: Real-time detection (e.g., traffic monitoring), and pixel-level segmentation (e.g., isolating tumors in scans).
+  - **Medical imaging (AI-based tumor detection)**: Reduces radiologist workload (e.g., Google’s LYNA), and early diagnosis of retinal diseases.
+  - **Autonomous driving (Tesla uses deep vision networks)**: Processes multi-camera feeds with CNNs, and uses LiDAR + vision fusion.
+
 # 1.9. Hardwave aspects of computer vision: FPGA & Edge AI
 To make computer vision faster and more efficient, we use specialized hardware.
 FPGA (Field-Programmable Gate Arrays): FPGA provides low-latency, high-performance computation for vision applications.
