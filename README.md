@@ -5,6 +5,8 @@ by Ahmad Salehi
 Computer Vision (CV) is a field of AI that enables machines to interpret and process visual data (images/videos) to extract useful information. It involves tasks like object detection, image classification, segmentation, and recognition.
 CV enables computers to interpret and analyze visual data (images/videos) like humans. It involves feature extraction, pattern recognition, and decision-making using machine learning and deep learning.
 
+![01,fig02-Picsart-AiImageEnhancer](https://github.com/user-attachments/assets/4cec34f3-58c2-404e-b087-c601e7a48123)
+Figure 1_1: The figure illustrates the interdisciplinary nature of computer vision and its distinctions from related fields like image processing and machine vision.
 
 | Field | Definition | Common Uses | Wavelengths & Sensors |
 |-------|------------|-------------|-----------------------|
