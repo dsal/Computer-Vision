@@ -47,10 +47,10 @@ How It Relates to CV:
     
 # 1.2. Key areas in computer vision
 CV relies on foundational concepts from several core areas of mathematics and computer science. These key areas provide the theoretical and practical tools needed to process, analyze, and extract meaningful information from images and videos.
-  - Linear Algebra: Matrix operations for image transformations (rotation, scaling).
-  - Calculus: Optimization (gradient descent for training deep learning models).
-  - Probability & Statistics: Bayesian filtering, noise reduction, and uncertainty modeling.
-  - Geometry: 3D reconstruction, depth estimation, and camera calibration. Example: Epipolar Geometry is used in stereo vision to estimate 3D depth from two 2D images.
+  - Linear Algebra: for manipulating image data through matrix operations, such as transformations (rotation, scaling) and convolutional filters.
+  - Calculus: (particularly optimization techniques like gradient descent) for training deep learning models that improve vision-based tasks.
+  - Probability & Statistics: for handling uncertainty, noise reduction, and probabilistic models like Bayesian filtering.
+  - Geometry: (especially projective geometry) for tasks such as 3D reconstruction, depth estimation, and camera calibration. For example, epipolar geometry is crucial in stereo vision systems to derive 3D structure from multiple 2D images.
 
 # 1.3. How these components work together
   - Input (Information Retrieval): Collects and preprocesses visual data.
