@@ -27,7 +27,7 @@ Table 1_1: Image processing vs. computer vision vs. machine vision
 | 3-14 um | Thermal InfraRed (TIR) | Uncooled microbolometers | Heat detection, surveillance, medical imaging |
 | 1 mm -  1 m | Radar | Radar sensors | Automotive collision detection |
 
-Table 1_1: Wavelengths and optical sensors used
+Table 1_2: Wavelengths and optical sensors used
 
 # 1.1. Key components of computer vision
 **Input**: Information Retrieval
