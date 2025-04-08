@@ -46,6 +46,7 @@ How It Relates to CV:
     Definition: Mathematical principles that form the backbone of Computer Vision.
     
 # 1.2. Key areas in computer vision
+CV relies on foundational concepts from several core areas of mathematics and computer science. These key areas provide the theoretical and practical tools needed to process, analyze, and extract meaningful information from images and videos.
   - Linear Algebra: Matrix operations for image transformations (rotation, scaling).
   - Calculus: Optimization (gradient descent for training deep learning models).
   - Probability & Statistics: Bayesian filtering, noise reduction, and uncertainty modeling.
