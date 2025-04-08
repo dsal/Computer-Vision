@@ -60,11 +60,12 @@ CV systems function as a cohesive pipeline, integrating multiple stages—input 
   - **Results (Mathematics)**: Ensures accurate transformations, optimizations, and model reliability. The purpose is ensuring reliablity and efficiency of output. In this step, key tasks include geometric verification (e.g., epipolar constraints in stereo vision), statistical confidence scores (e.g., Bayesian inference), optimization (e.g., backpropagation tuning model weights). For instance, a drone uses 3D triangulation (geometry) to validate its depth-map accuracy.
 
 # 1.4. Core fields of computer vision
-  - Computer Intelligence → The broad AI-driven approach to decision-making and pattern recognition.
-  - Artificial Intelligence (AI) → CV is a subset of AI that processes visual data.
-  - Cognitive Vision → Goes beyond recognition, incorporating context and reasoning.
-  - Machine Learning (ML) → Deep learning architectures (CNNs, Transformers, GANs) drive modern CV.
-  - Mathematical Foundations:
+CV merges techniques from artificial intelligence, cognitive science, machine learning, and mathematics to enable machines to see and interpret visual data. These core fields work synergistically to solve complex problems—from object detection to autonomous navigation. Below is a breakdown of their roles and interconnections:
+  - **Computer Intelligence** → The broad AI-driven approach to decision-making and pattern recognition.
+  - **Artificial Intelligence (AI)** → CV is a subset of AI that processes visual data.
+  - **Cognitive Vision** → Goes beyond recognition, incorporating context and reasoning.
+  - **Machine Learning (ML)** → Deep learning architectures (CNNs, Transformers, GANs) drive modern CV.
+  - **Mathematical Foundations**:
     Statistics → Bayesian networks, probabilistic models. | Geometry → 3D reconstruction, camera calibration. | Optimization → Gradient descent, convex optimization.
 
 # 1.5. Vision-specific applications
