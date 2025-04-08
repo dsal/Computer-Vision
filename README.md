@@ -8,4 +8,5 @@ Computer Vision (CV) enables computers to interpret and analyze visual data (ima
 | Image Processing | Enhancing or modifying images without understanding their content | Noise removal, filtering, edge detection, compression | Optical cameras (RGB, InfraRed), scanners|
 | Computer Vision | Teaching machines to interpret images like humans do |Object recognition, facial recognition, autonomous driving | RGB cameras, depth sensors (LiDAR), Infrared cameras |
 | Machine Vision | Industrial use of vision systems for inspection and automation | Quality control, robotics, barcode scanning | InfraRed (thermal), X-ray, multispectral cameras|
+
 Table 1_1: Image Processing vs. Computer virion vs. Machine Vision
