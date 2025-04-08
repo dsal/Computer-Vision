@@ -69,11 +69,12 @@ CV merges techniques from artificial intelligence, cognitive science, machine le
     Statistics → Bayesian networks, probabilistic models. | Geometry → 3D reconstruction, camera calibration. | Optimization → Gradient descent, convex optimization.
 
 # 1.5. Vision-specific applications
-  - Robotic Vision → SLAM (Simultaneous Localization and Mapping), obstacle detection.
-  - Control Robotics → Vision-based control systems in autonomous vehicles.
-  - Computer Vision → High-level interpretation (e.g., face recognition, medical imaging).
-  - Image Processing → Low-level transformations (e.g., Fourier Transform, edge detection).
-  - Neurobiology & Biological Vision → Bio-inspired AI (e.g., CNNs inspired by the visual cortex).
+CV powers a diverse range of applications, each leveraging unique techniques to solve real-world problems. From enabling robots to navigate autonomously to revolutionizing medical diagnostics, these applications highlight the transformative potential of CV. Below is a structured overview of key vision-specific domains and their significance:
+  - **Robotic Vision** → SLAM (Simultaneous Localization and Mapping: Allows robots to map unknown spaces while tracking their location.), obstacle detection (Uses depth sensors (LiDAR) or stereo cameras to avoid collisions.)
+  - **Control Robotics** → Vision-based control systems in autonomous vehicles. It integrates vision into decision-making for autonomous systems. Applications include autonomous Vehicles (Cameras + LiDAR detect lanes, pedestrians, and traffic signs.), and industrial Robots (Vision-guided arms assemble products or sort items in warehouses.)
+  - **Computer Vision** → High-level interpretation (e.g., face recognition, medical imaging); Extracting semantic meaning from visual data. The key tasks include face recognition (Biometric security), and medical imaging (detecting tumors in MRI scans or diabetic retinopathy in retinal images)
+  - **Image Processing** → Low-level transformations (e.g., Fourier Transform, edge detection); Enhancing or manipulating raw pixel data. The key techniques are fourier transform (Decomposes images into frequencies used in compression, like JPEG.), and edge detection (identifies object boundaries.)
+  - **Neurobiology & Biological Vision** → Bio-inspired AI (e.g., CNNs inspired by the visual cortex); drawing inspiration from human/animal vision to improve AI such as CNN Inspiration (Mimics the visual cortex’s hierarchical processing), and Bio-Inspired Sensors (Event cameras that replicate the retina’s response to light changes)
 
 # 1.6. Technical foundations
   - Signal Processing
