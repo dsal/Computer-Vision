@@ -77,11 +77,12 @@ CV powers a diverse range of applications, each leveraging unique techniques to 
   - **Neurobiology & Biological Vision** → Bio-inspired AI (e.g., CNNs inspired by the visual cortex); drawing inspiration from human/animal vision to improve AI such as CNN Inspiration (Mimics the visual cortex’s hierarchical processing), and Bio-Inspired Sensors (Event cameras that replicate the retina’s response to light changes)
 
 # 1.6. Technical foundations
-  - Signal Processing
-  - Multi-variable Signal Processing → Used for hyperspectral imaging, video analysis.
-  - Non-linear Signal Processing → Advanced feature extraction techniques.
-  - Physics & Imaging → Optics, LiDAR, radiance models.
-  - Smart Cameras → On-device real-time processing (e.g., FPGA-based vision).
+The field of CV is built on rigorous technical foundations that enable machines to process, analyze, and interpret visual data. These foundations draw from signal processing, physics, and hardware innovations to address challenges like noise reduction, real-time processing, and 3D reconstruction. Below is a detailed breakdown of these core technical pillars:
+  - **Signal Processing**: The backbone of low-level image analysis. Key techniques include Fourier Transform (Converts images to frequency domains for compression,JPEG , or noise removal), and filtering (Gaussian/median filters smooth images or enhance edges). For instance, MRI scans use Fourier-based reconstruction to convert raw signals into images.
+  - **Multi-variable Signal Processing** → Handles complex, high-dimensional data. The application include Hyperspectral imaging (Captures hundreds of spectral bands: used in agriculture to monitor crop health), and video analysis (Temporal signal processing for motion tracking, e.g., sports analytics).
+  - **Non-linear Signal Processing** → Advanced feature extraction techniques; it extracts intricate patterns where linear methods fail. The techniques are wavelet transforms (multi-resolution analysis for texture classification), and morphological operations (shape-based filtering, e.g., erosion/dilation in medical imaging). For example detecting tumor boundaries in ultrasound images using non-linear edge enhancement.
+  - **Physics & Imaging** → Models how light interacts with scenes and sensors. Key areas include optics (Lens design, aberrations, and focus models), LiDAR (Time-of-flight principles for 3D depth mapping), and radiance models (Simulates light transport, e.g., for virtual reality rendering). For example, autonomous vehicles use LiDAR physics to correct for weather-related noise.
+  - **Smart Cameras** → embeds processing power directly into cameras. The techniques are FPGA/ASIC Chips (Enable real-time edge detection or object tracking without a PC) and event cameras (Mimic the human retina with microsecond latency used in high-speed robotics). For example, surveillance cameras with on-device facial recognition.
 
 # 1.7. How these areas connect
   - Physics & Imaging → Models how light interacts with surfaces (radiance, reflections).
