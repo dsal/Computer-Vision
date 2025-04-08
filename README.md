@@ -30,17 +30,17 @@ Table 1_1: Wavelengths and optical sensors used
 **Input**: Information Retrieval
 Accessing and extracting relevant data from large datasets based on content.
 How It Relates to CV:
-  - Image Search & Retrieval: Finding similar images in a database.
-  - Feature Extraction: Identifying patterns (edges, colors, textures).
-  - Reverse Image Search: Matching a given image to known references.
+  - **Image Search & Retrieval**: Finding similar images in a database.
+  - **Feature Extraction**: Identifying patterns (edges, colors, textures).
+  - **Reverse Image Search**: Matching a given image to known references.
     Example: Google Reverse Image Search uses CV to find visually similar images online.
     
 **Output**: Machine Learning
 Using algorithms to learn from image data and make predictions.
 How It Relates to CV:
-  - Supervised Learning: Training a model using labeled datasets (e.g., ImageNet for classification).
-  - Unsupervised Learning: Clustering images without predefined labels (e.g., anomaly detection).
-  - Deep Learning (CNNs, Transformers): Models that analyze pixel patterns to recognize objects.
+  - **Supervised Learning**: Training a model using labeled datasets (e.g., ImageNet for classification).
+  - **Unsupervised Learning**: Clustering images without predefined labels (e.g., anomaly detection).
+  - **Deep Learning (CNNs, Transformers)**: Models that analyze pixel patterns to recognize objects.
     Example: Self-driving cars use CNNs (Convolutional Neural Networks) to identify road signs, pedestrians, and obstacles.
     Results: Mathematics
     Definition: Mathematical principles that form the backbone of Computer Vision.
