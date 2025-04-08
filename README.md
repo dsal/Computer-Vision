@@ -22,6 +22,15 @@ Table 1_1: Image processing vs. computer vision vs. machine vision
 | 730-1400 nm | Near-InfraRed (NIR) |NIR Cameras | Eye tracking, night vision |
 | 1.4-3 um | Short-wave InfraRed (SWIR) | SWIR Cameras | Eye tracking, night vision |
 | 3-14 um | Thermal InfraRed (TIR) | Uncooled microbolometers | Heat detection, surveillance, medical imaging |
-| 1 mm -  m | Radar | Radar sensors | Automotive collision detection |
+| 1 mm -  1 m | Radar | Radar sensors | Automotive collision detection |
 
 Table 1_1: Wavelengths and optical sensors used
+
+# 1.1. Key Components of Computer Vision
+Input: Information Retrieval: Accessing and extracting relevant data from large datasets based on content.
+How It Relates to CV:
+  - Image Search & Retrieval: Finding similar images in a database.
+  - Feature Extraction: Identifying patterns (edges, colors, textures).
+  - Reverse Image Search: Matching a given image to known references.
+    Example: Google Reverse Image Search uses CV to find visually similar images online.
+
