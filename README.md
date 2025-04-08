@@ -51,11 +51,13 @@ CV relies on foundational concepts from several core areas of mathematics and co
   - Calculus: (particularly optimization techniques like gradient descent) for training deep learning models that improve vision-based tasks.
   - Probability & Statistics: for handling uncertainty, noise reduction, and probabilistic models like Bayesian filtering.
   - Geometry: (especially projective geometry) for tasks such as 3D reconstruction, depth estimation, and camera calibration. For example, epipolar geometry is crucial in stereo vision systems to derive 3D structure from multiple 2D images.
+Understanding these areas is fundamental to developing robust computer vision systems, from simple image filters to advanced applications like autonomous driving and medical imaging.
 
 # 1.3. How these components work together
-  - Input (Information Retrieval): Collects and preprocesses visual data.
-  - Output (Machine Learning): Analyzes and learns patterns from the data.
-  - Results (Mathematics): Ensures accurate transformations, optimizations, and model reliability.
+CV systems function as a cohesive pipeline, integrating multiple stages—input processing, machine learning analysis, and mathematical validation, to transform raw visual data into actionable insights. Each component plays a critical role in ensuring accuracy, efficiency, and reliability.
+  - Input (Information Retrieval & Preprocessing): Collects and preprocesses visual data. Raw images/videos are acquired (e.g., from cameras or sensors) and refined for analysis. In this step, key tasks include noise reduction (e.g., Gaussian filtering), normalization (rescaling pixel values), and feature extraction (e.g., edges, textures). For instance, a self-driving car’s cameras capture street scenes, which are then cropped and adjusted for lighting.
+  - Output (Machine Learning & Pattern Recognition): Analyzes and learns patterns from the data. The purpose of this step is modeling (e.g., CNNs, transformers), detecting and interpreting patterns. In this step, key tasks include In this step, key tasks include, image classification (ResNet, ViT), and semantic segmentation (U-Net). For instance, a medical AI system identifies tumors in X-rays by learning from labeled datasets.
+  - Results (Mathematics): Ensures accurate transformations, optimizations, and model reliability. The purpose is ensuring reliablity and efficiency of output. In this step, key tasks include geometric verification (e.g., epipolar constraints in stereo vision), statistical confidence scores (e.g., Bayesian inference), optimization (e.g., backpropagation tuning model weights). For instance, a drone uses 3D triangulation (geometry) to validate its depth-map accuracy.
 
 # 1.4. Core fields of computer vision
   - Computer Intelligence → The broad AI-driven approach to decision-making and pattern recognition.
