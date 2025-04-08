@@ -34,6 +34,7 @@ How It Relates to CV:
   - Feature Extraction: Identifying patterns (edges, colors, textures).
   - Reverse Image Search: Matching a given image to known references.
     Example: Google Reverse Image Search uses CV to find visually similar images online.
+    
 Output: Machine Learning
 Using algorithms to learn from image data and make predictions.
 How It Relates to CV:
@@ -43,3 +44,22 @@ How It Relates to CV:
     Example: Self-driving cars use CNNs (Convolutional Neural Networks) to identify road signs, pedestrians, and obstacles.
     Results: Mathematics
     Definition: Mathematical principles that form the backbone of Computer Vision.
+    
+# 1.2. Key Areas in CV
+  - Linear Algebra: Matrix operations for image transformations (rotation, scaling).
+  - Calculus: Optimization (gradient descent for training deep learning models).
+  - Probability & Statistics: Bayesian filtering, noise reduction, and uncertainty modeling.
+  - Geometry: 3D reconstruction, depth estimation, and camera calibration. Example: Epipolar Geometry is used in stereo vision to estimate 3D depth from two 2D images.
+
+# 1.3. How These Components Work Together
+  - Input (Information Retrieval): Collects and preprocesses visual data.
+  - Output (Machine Learning): Analyzes and learns patterns from the data.
+  - Results (Mathematics): Ensures accurate transformations, optimizations, and model reliability.
+
+# 1.4. Core Fields of Computer Vision
+  - Computer Intelligence → The broad AI-driven approach to decision-making and pattern recognition.
+  - Artificial Intelligence (AI) → CV is a subset of AI that processes visual data.
+  - Cognitive Vision → Goes beyond recognition, incorporating context and reasoning.
+  - Machine Learning (ML) → Deep learning architectures (CNNs, Transformers, GANs) drive modern CV.
+  - Mathematical Foundations:
+    Statistics → Bayesian networks, probabilistic models. | Geometry → 3D reconstruction, camera calibration. | Optimization → Gradient descent, convex optimization.
