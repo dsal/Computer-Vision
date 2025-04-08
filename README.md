@@ -85,11 +85,12 @@ The field of CV is built on rigorous technical foundations that enable machines 
   - **Smart Cameras** → embeds processing power directly into cameras. The techniques are FPGA/ASIC Chips (Enable real-time edge detection or object tracking without a PC) and event cameras (Mimic the human retina with microsecond latency used in high-speed robotics). For example, surveillance cameras with on-device facial recognition.
 
 # 1.7. How these areas connect
-  - Physics & Imaging → Models how light interacts with surfaces (radiance, reflections).
-  - Signal Processing → Transforms raw sensor data (Fourier transforms, wavelets).
-  - Image Processing → Enhances and segments images for analysis.
-  - Computer Vision & AI → Recognizes objects, scenes, patterns.
-  - Robotics & Smart Applications → Uses vision for automation and real-world interaction.
+CV is a symphony of interdisciplinary domains, each contributing essential capabilities to transform raw visual data into actionable intelligence. Below is a clear breakdown of how these areas interlink to form a cohesive pipeline, along with real-world examples of their synergy:
+  - **Physics & Imaging** → Models how light interacts with surfaces (radiance, reflections). It provides the input for signal processing (e.g., modeling lens distortions or LiDAR reflections). In addition, it informs robotics about material properties (e.g., glare on roads for autonomous vehicles). For example, a self-driving car’s camera adjusts exposure based on physics-based radiance models to handle sunlight glare.
+  - **Signal Processing** → Transforms raw sensor data (Fourier transforms, wavelets). It cleans data for image processing (e.g., denoising MRI scans with wavelet transforms). In additoin, it extracts features for AI models (e.g., frequency-domain patterns in facial recognition). For example, satellite imagery uses Fourier transforms to compress data before analysis.
+  - **Image Processing** → Enhances and segments images for analysis. It feeds preprocessed data to computer vision/AI (e.g., edge-detected images for object detection). Also, it supports robotics with real-time segmentation (e.g., identifying obstacles in industrial settings). For example, medical imaging software sharpens X-rays before tumor detection by a CNN.
+  - **Computer Vision & AI** → Recognizes objects, scenes, patterns. It relies on image processing for clean inputs. Also, it directs robotics with actionable insights (e.g., a robot arm picking items identified by a vision model). For example, retail AI uses object recognition to monitor shelf inventory, triggering restocking robots.
+  - **Robotics & Smart Applications** → Uses vision for automation and real-world interaction. It is related with physics for environmental interaction (e.g., drone avoiding reflections on water). In addition, it uses AI outputs for decision-making (e.g., warehouse robots navigating via real-time object detection). For example, agricultural drones analyze crop health (CV) and spray pesticides (robotics) using multi-spectral imaging (signal processing).
 
 # 1.8. Deep learning for computer vision
 Deep learning has revolutionized computer vision by replacing handcrafted features with end-to-end learning models. Key Architectures and methods of deep learning for CV are:
