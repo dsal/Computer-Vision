@@ -1,7 +1,7 @@
 # Learning-Computer-Vision-with-DSal
 by Ahmad Salehi
 
-# 1. Introduction
+# Chapter 1: Introduction
 Computer Vision (CV) is a field of AI that enables machines to interpret and process visual data (images/videos) to extract useful information. It involves tasks like object detection, image classification, segmentation, and recognition.
 CV enables computers to interpret and analyze visual data (images/videos) like humans. It involves feature extraction, pattern recognition, and decision-making using machine learning and deep learning.
 
