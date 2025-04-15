@@ -1,4 +1,4 @@
-# Computer Vision
+# Learning Computer Vision
 by Ahmad Salehi
 
 # Chapter 1: Introduction
