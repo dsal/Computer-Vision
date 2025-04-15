@@ -1,4 +1,4 @@
-# Learning-Computer-Vision-with-DSal
+# Computer Vision
 by Ahmad Salehi
 
 # Chapter 1: Introduction
