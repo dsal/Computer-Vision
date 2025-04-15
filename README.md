@@ -109,5 +109,5 @@ To meet the demands of real-time, low-latency CV applications, specialized hardw
   - **Edge AI**: Edge AI deploys AI models directly on local devices (edge) instead of relying on cloud servers. It moves AI processing to local devices instead of cloud computing, and it addresses latency, privacy, and bandwidth limitations. Benefits of leveraging edge AI include speed (having faster inference), power efficiency (lower power consumption), and privacy (data stays on-device, e.g., facial recognition in secure facilities.). For example, NVIDIA Jetson (NVIDIA Jetson powers robots like Boston Dynamics’ Spot for real-time navigation), smart cameras (Google Coral TPU enables offline object detection in surveillance systems), and autonomous systems (Intel Movidius VPUs process vision tasks in drones and AGVs (Automated Guided Vehicles).
 
 **References**
-[1] Alireza Akhavan Pour: "Computer Vision with Python"
-[2] OpenCV Library
+- [1] Alireza Akhavan Pour: "Computer Vision with Python"
+- [2] OpenCV Library
